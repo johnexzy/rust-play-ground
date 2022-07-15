@@ -1,0 +1,35 @@
+{
+  "name": "rust_play_ground",
+  "version": "1.0.0",
+  "description": "Practical Source Codes for rust development",
+  "main": "src/main.rs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnexzy/rust-play-ground.git"
+  },
+  "keywords": [
+    "Rust",
+    "Learn",
+    "Rust",
+    "Cargo"
+  ],
+  "author": "obajohn75@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnexzy/rust-play-ground/issues"
+  },
+  "homepage": "https://github.com/johnexzy/rust-play-ground#readme",
+  "dependencies": {
+    "commitizen": "^4.2.4",
+    "cz-emoji": "^1.3.1"
+  },
+  "config": {
+    "commitizen":{
+      "path": "./node_modules/cz-emoji"
+    }
+  }
+}
